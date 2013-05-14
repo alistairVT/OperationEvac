@@ -1,0 +1,278 @@
+body{
+	
+	margin:0;
+	cursor:default;
+	color:#eee;
+	background-color:#fcf04b;
+	overflow-y:scroll;
+}
+body, input{
+	font-family:Arial, Helvetica;
+}
+.clear{
+	clear:both;
+}
+#maincontainer,#map{
+	box-shadow:0 0 10px #111;
+	border-radius:15px;
+	width:700px;
+	min-height:100px;
+	background-color:#222222;
+	margin:0 auto 20px auto;
+
+}
+#table{
+	box-shadow:0 0 10px #111;
+	border-radius:15px;
+	width:660px;
+	min-height:100px;
+	background-color:#777;
+	margin:0 auto 20px auto;
+}
+
+#maincontainer{
+	padding:70px 20px 20px 20px;
+}
+#map,#table{
+	padding:20px 20px 20px 20px;
+}
+#VAHcontainer{
+	box-shadow:0 0 10px #111;
+	border-radius:15px;
+	width:700px;
+	min-height:500px;
+	background-color:#222222;
+	margin:0 auto 20px auto;
+}
+
+/*#addevacform{
+	
+	width:700px;
+	min-height:100px;
+	padding:70px 20px 20px 20px;
+	margin:0 auto 20px auto;
+}*/
+
+.login{
+	background-image:url('../images/logo.jpg') !important;
+	background-position:right;
+}
+
+.pageheader{
+	font-weight:bold;
+	font-size:25px;
+	padding:20px 10px;
+	border-radius:10px;
+	border:1px solid #eee;
+}
+
+#navigationbar{
+	background:-webkit-linear-gradient(90deg, #222222, #444444);
+	background:-moz-linear-gradient(90deg, #222222, #444444);
+	box-shadow:0 0 10px #111;
+	position:fixed;
+	width:100%;
+	height:50px;
+	z-index:10;
+	background-color:#222;
+	text-decoration:none;
+
+}
+#navigationbuttons{
+	width:700px;
+	height:100%;
+	margin:0 auto;
+}	
+#navigationtitle{
+	float:left;
+	font-size:30px;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+#navigationoptions{
+	float:right;
+	height:100%;
+	min-width:100px;
+}
+
+#navigationlinks{
+	float:right;
+}
+
+#loginform, #registerform, #addevacform{
+	min-height:300px;
+	width:700px;
+}
+.messageheader{
+	
+	font-weight:bold;
+	font-size:25px;
+	padding-bottom:10px;
+	border-bottom:1px solid #eee;
+	
+}
+
+#loginmessage, #registermessage{
+	border-radius:10px;
+	background-color:rgba(0,0,0,0.5);
+	float:left;
+	padding:10px;
+	width:430px;
+}
+#loginmessage{
+	height:280px;
+}
+
+#registermessage{
+	height:585px;
+
+}
+
+#formbox, #errormessage{
+	color:#111;
+	padding:10px;
+	font-size:15px;
+	background-color:#eee;
+	border-radius:10px;
+	border:1px solid rgba(0,0,0,0.2);
+}
+#formbox
+{
+	float:right;
+	width:200px;
+}
+
+#errormessage{
+	background-color:pink;
+	margin-top:10px;
+	font-size:15px;
+}
+#formbox .logininput{
+	padding:3px;
+	font-size:14px;
+	margin:3px 0 15px 0;
+	width:190px;
+}
+.button, #registerlink{
+	min-width:70px;
+	height:30px;
+	padding:3px;
+	border-radius:3px;
+	cursor:pointer;
+	border:1px solid rgba(0,0,0,0.2);
+	font-size:14px;
+	float:right;
+	display:block;
+}
+
+.button, #registerlink, #deleteEC{
+	color:#fff !important;
+	text-shadow:0 1px 1px #444;
+}
+
+#submit{
+	background:-webkit-linear-gradient(90deg, #21825B, #36D695);
+	background:-moz-linear-gradient(90deg, #21825B, #36D695);
+	
+	margin:10px 0 0 0;
+}
+#submit:hover{
+	background:#36D695;
+}
+#submit:active{
+	background:#21825B;
+}
+#registerlink{
+	color:#111;
+	margin:10px 10px 0 0;
+	text-align:center;
+	text-decoration:none;
+	padding-top:6px;
+	height:19px;
+	background:-webkit-linear-gradient(90deg, #3392db, #a0cbec);
+	background:-moz-linear-gradient(90deg, #3392db, #a0cbec);
+}
+#editEC,#deleteEC,
+#editP, #deleteP{
+	color:#111;
+	margin:10px 10px 0 0;
+	text-align:center;
+	text-decoration:none;
+	padding-top:6px;
+	height:19px;
+	background:-webkit-linear-gradient(90deg, #3392db, #a0cbec);
+	background:-moz-linear-gradient(90deg, #3392db, #a0cbec);
+}
+
+#registerlink:hover{
+	background:#a0cbec;
+}
+#registerlink:active{
+	background:#3392db;
+}
+
+#centerlist{
+	width:100%;
+border-collapse:collapse;
+}
+
+#centerlist td{
+border-bottom:1px solid #aaa;
+padding:5px;
+min-width:100px;
+}
+
+#centerlist tr:last-child td{
+border-bottom:0;
+}
+
+#pop-bg{
+	background-color:rgba(255,255,255,0.5);
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
+#pop-map{
+	top:0;
+	left:0;
+	width:600px;
+	height:545px;
+	padding:10px;
+	background-color:#222;
+	position:absolute;
+	box-shadow:0 0 10px #111;
+	border-radius:10px;
+}
+
+
+#pop-evacname{
+	font-size:20px;
+}
+
+#pop-address{
+	font-size:13px;
+	margin-bottom:5px;
+}
+
+#pop-exit{
+	border-radius:10px;
+	background-color:#222;
+	position:absolute;
+	right:-40px;
+	top:0;
+	padding:10px;
+	cursor: pointer;
+}
+
+#pop-exit:hover{
+	background-color:#666;
+}
+
+a:link {text-decoration:none;}      /* unvisited link */
+a:visited {text-decoration:none;}  /* visited link */
+a:hover {text-decoration:none;}  /* mouse over link */
+a:active {text-decoration:none;}  /* selected link */
